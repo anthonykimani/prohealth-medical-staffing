@@ -1,10 +1,16 @@
 // import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <h1>Prohealth Medical staffing </h1>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }
