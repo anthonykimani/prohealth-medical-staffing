@@ -3,7 +3,7 @@ import Navigation from "../navigation-section/Navigation";
 const HeroSection = () => {
     return ( 
         <div  style={{ 
-            backgroundImage: `url(${process.env.PUBLIC_URL + '/hero-image.jpg'})`}} className="min-h-[700px] h-[100%] bg-no-repeat bg-top flex flex-col justify-between" >
+            backgroundImage: `url(${process.env.PUBLIC_URL + '/hero-image.jpg'})`}} className="w-[100%] min-h-[700px] h-[100%] bg-cover bg-no-repeat bg-black  bg-opacity-30 bg-blend-darken flex justify-between flex-col" >
             <Navigation />
             <div className=" flex flex-col items-center text-white text-center justify-around min-h-[300px] h-[100%]">
                 <h2 className="text-2xl font-bold">Nursing Care Professional Services</h2>
