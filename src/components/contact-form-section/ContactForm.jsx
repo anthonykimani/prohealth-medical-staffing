@@ -1,6 +1,6 @@
 const ContactForm = () => {
     return ( 
-        <div className="flex flex-col md:flex-row justify-around items-center m-5">
+        <div className="flex flex-col md:flex-row justify-around items-center m-5  min-h-[800px] h-[100%]">
             <div className="max-w-[500px] max-h-[400px] h-[100%] my-3">
                 <h1 className="text-4xl font-bold text-blue-900">Get In Touch</h1>
                 <h3 className="font-jost max-w-[400px] w-[100%] ">Let us know what we can do to make your life easier and feel confident that your loved one is getting the care they deserve.</h3>

@@ -2,43 +2,41 @@ import logo from "./logo.svg";
 
 const Footer = () => {
   return (
-    <div className="bg-blue-900 text-white">
-      <div className="flex flex-col md:flex-row justify-around items-center ">
-        <div>
-          <div>
-            <img src={logo} alt="" />
-            <h3>@prohealth medical staffing</h3>
-          </div>
-          <div>
-            <h3>Contact</h3>
-            <h4>
-              <span>phone:</span>+254799559285
-            </h4>
-            <h4>
-              <span>email:</span>kimaniantoni@gmail.com
-            </h4>
-            <h4>
-              <span>address:</span>24th avenue oregon 34street portland
-            </h4>
-          </div>
-          <div>
-            <i class="bx bxl-facebook-square bx-md"></i>
-            <i class="bx bxl-twitter bx-md"></i>
-          </div>
-        </div>
-        <div>
-          <h3>Contact</h3>
-          <h4>
-            <span>phone:</span>+254799559285
-          </h4>
-          <h4>
-            <span>email:</span>kimaniantoni@gmail.com
-          </h4>
-          <h4>
-            <span>address:</span>24th avenue oregon 34street portland
-          </h4>
-        </div>
-      </div>
+    <div className="bg-gray-800 text-white">
+<footer className="p-6 dark:bg-gray-800 dark:text-gray-100">
+	<div className="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4">
+		<div className="flex flex-col space-y-4">
+			<h2 className="font-medium">Services</h2>
+			<div className="flex flex-col space-y-2 text-sm dark:text-gray-400">
+				<a rel="noopener noreferrer" href="#">Services</a>
+			</div>
+		</div>
+		<div className="flex flex-col space-y-4">
+			<h2 className="font-medium">Pricing</h2>
+			<div className="flex flex-col space-y-2 text-sm dark:text-gray-400">
+				<a rel="noopener noreferrer" href="#">Pricing</a>
+			</div>
+		</div>
+		<div className="flex flex-col space-y-4">
+			<h2 className="font-medium">Contact</h2>
+			<div className="flex flex-col space-y-2 text-sm dark:text-gray-400">
+				<a rel="noopener noreferrer" href="#">Contact</a>
+			</div>
+		</div>
+		<div className="flex flex-col space-y-4">
+			<h2 className="font-medium">Community</h2>
+			<div className="flex flex-col space-y-2 text-sm dark:text-gray-400">
+				<a rel="noopener noreferrer" href="#">GitHub</a>
+				<a rel="noopener noreferrer" href="#">Discord</a>
+				<a rel="noopener noreferrer" href="#">Twitter</a>
+				<a rel="noopener noreferrer" href="#">YouTube</a>
+			</div>
+		</div>
+	</div>
+	<div className="flex items-center justify-center px-6 pt-12 text-sm">
+		<span className="dark:text-gray-400">© Copyright 2022. All Rights Reserved.</span>
+	</div>
+</footer>
     </div>
   );
 };
