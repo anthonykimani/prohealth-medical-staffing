@@ -12,29 +12,31 @@ const AboutMid = () => {
             Want to Work in Healthcare? Join Us
           </h2>
           <p className="font-normal text-base leading-6 text-gray-600 mt-6">
-            We have been successfully placing nurses and care providers to new care homes for over two years. Find your next medical position through us and the partnership with clients.
+            We have been successfully placing nurses and care providers to new
+            care homes for over two years. Find your next medical position
+            through us and the partnership with clients.
           </p>
         </div>
         <div className="w-full lg:w-6/12">
           <img
             className="lg:block hidden w-full"
-            src="https://i.ibb.co/RjNH7QB/Rectangle-122-1.png"
+            src={process.env.PUBLIC_URL + '/hero-image.jpg'}
             alt="people discussing on board"
           />
           <img
             className="lg:hidden sm:block hidden w-full"
-            src="https://i.ibb.co/16fPqrg/Rectangle-122-2.png"
+            src={process.env.PUBLIC_URL + '/hero-image.jpg'}
             alt="people discussing on board"
           />
           <img
             className="sm:hidden block w-full"
-            src="https://i.ibb.co/Jxhpxh6/Rectangle-122.png"
+            src={process.env.PUBLIC_URL + '/hero-image.jpg'}
             alt="people discussing on board"
           />
         </div>
       </div>
 
-      <div className="relative mt-24">
+      {/* <div className="relative mt-24">
         <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
           <div className="z-20 w-12 h-12 bg-gray-800 rounded-full flex justify-center items-center">
             <svg
@@ -154,15 +156,17 @@ const AboutMid = () => {
           </svg>
         </div>
         <hr className="z-10 absolute top-2/4 w-full bg-gray-200" />
-      </div>
-      <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
+      </div> */}
+      {/* <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
         <div>
           <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">
-            Founded
+            Mission
           </p>
           <p className="font-normal text-base leading-6 text-gray-600 mt-6">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout.
+            Prohealth Medical staffing organization was founded to help healthcare
+            facilities fill staffing gaps and meet their staffing needs by
+            recruiting and hiring qualified healthcare professionals on an
+            as-needed basis.
           </p>
         </div>
         <div>
@@ -183,8 +187,8 @@ const AboutMid = () => {
             the readable content of a page when looking at its layout.
           </p>
         </div>
-      </div>
-      <div className="sm:hidden block relative mt-8">
+      </div> */}
+      {/* <div className="sm:hidden block relative mt-8">
         <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
           <svg
             className="z-20"
@@ -237,7 +241,7 @@ const AboutMid = () => {
             the readable content of a page when looking at its layout.
           </p>
         </div>
-      </div>
+      </div> */}
 
       <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
         <div className="w-full lg:w-6/12">
@@ -245,22 +249,19 @@ const AboutMid = () => {
             Our Mission
           </h2>
           <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum.In the first place we have granted to God, and
-            by this our present charter confirmed for us and our heirs forever
-            that the English Church shall be free, and shall have her rights
-            entire, and her liberties inviolate; and we will that it be thus
-            observed; which is apparent from
+            Our mission at Prohealth Medical Staffing is to provide healthcare
+            facilities with the staffing support they need to provide
+            high-quality patient care. We believe that every patient deserves
+            the best possible care, and we work tirelessly to help our clients
+            achieve that goal by providing them with the skilled medical
+            professionals they need.
           </p>
           <p className="font-normal text-base leading-6 text-gray-600 w-full lg:w-10/12 xl:w-9/12 mt-10">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum.In the first place we have granted to God, and
-            by this our present charter confirmed for us and our heirs forever
-            that the English Church shall be free, and shall have her rights
-            entire, and her liberties inviolate; and we will that it be thus
-            observed; which is apparent from
+            We are committed to recruiting and hiring only the most qualified
+            candidates, and we strive to maintain long-term relationships with
+            both our clients and our staff. Our ultimate goal is to be the
+            premier medical staffing organization in the industry, known for our
+            professionalism, reliability, and dedication to excellence.
           </p>
         </div>
         <div className="w-full lg:w-6/12">
@@ -304,8 +305,10 @@ const AboutMid = () => {
                   Team
                 </p>
                 <p className="mt-2 font-normal text-base leading-6 text-gray-600">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  Our team at Prohealth Medical Staffing is composed of
+                  experienced recruiters, HR professionals, and account managers
+                  who are dedicated to providing top-notch staffing services and
+                  support to our clients and staff.
                 </p>
               </div>
             </div>
@@ -352,11 +355,10 @@ const AboutMid = () => {
               </div>
               <div className="">
                 <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">
-                  Board
+                  Community
                 </p>
                 <p className="mt-2 font-normal text-base leading-6 text-gray-600">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                we actively supports the community through financial contributions, volunteering, and discounted services.
                 </p>
               </div>
             </div>
@@ -389,11 +391,10 @@ const AboutMid = () => {
               </div>
               <div className="">
                 <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">
-                  Press
+                  Placements
                 </p>
                 <p className="mt-2 font-normal text-base leading-6 text-gray-600">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                We are passionate in placing the right nursing talent in healthcare facilities and we are known for our reliability and professionalism.
                 </p>
               </div>
             </div>

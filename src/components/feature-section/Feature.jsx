@@ -5,19 +5,18 @@ const Feature = () => {
         <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl">
-            Are you looking for a caring and compassionate home for your loved ones?
+            Are looking for new and exciting job opportunities.
             </h2>
             <p className="max-w-3xl mx-auto mt-4 text-xl text-center ">
-            Look no further than our nursing home for senior citizens. Our dedicated and trained staff are committed to providing the highest quality care to our residents
+            By registering with us, you'll have access to a wide range of temporary, contract, and permanent positions at healthcare facilities all across the country.
             </p>
           </div>
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div>
               <h3 className="text-2xl font-bold tracking-tight sm:text-3xl">
-              Some of the services we offer
+               Some of the services we offer include:
               </h3>
-              <p className="mt-3 text-lg ">
-              We offer a range of services, including assistance with daily activities, medication management, and personalized care plans. 
+              <p className="mt-3 text-lg ">we offer a range of services to healthcare facilities and nurses to assist with medical staffing needs.
               </p>
               <div className="mt-12 space-y-12">
                 <div className="flex">
@@ -41,10 +40,10 @@ const Feature = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium leading-6">
-                      Physical Activity/Fitness
+                    Recruiting and hiring:
                     </h4>
                     <p className="mt-2 ">
-                    Our caregivers can help seniors incorporate physical activity into their daily routines, whether that means going for a walk, doing some stretching exercises, or attending a fitness class. We can also provide transportation to local fitness centers or community classes, if needed.
+                    We have a database of qualified candidates and can help healthcare facilities find and hire the right healthcare professionals for their needs. 
                     </p>
                   </div>
                 </div>
@@ -69,10 +68,10 @@ const Feature = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium leading-6">
-                      Mental Health
+                    Employee management:
                     </h4>
                     <p className="mt-2 ">
-                    In addition to our physical care services, we also offer support for mental health care.Our caregivers are trained to provide support and assistance for these issues, and can work with clients and their families to develop a plan of care. We can also help connect seniors to mental health resources and professionals in their community, if needed. 
+                    We can assist with managing employee schedules and payroll, as well as handling all of the administrative tasks associated with staffing.
                     </p>
                   </div>
                 </div>
@@ -97,10 +96,10 @@ const Feature = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium leading-6">
-                      Community Interaction
+                    Contract staffing:
                     </h4>
                     <p className="mt-2 ">
-                    we also strive to help our clients stay connected to their communities. Our caregivers can help seniors maintain social connections and engage with their communities in a variety of ways. We can provide transportation to community events, social outings, or religious services.
+                    We can provide temporary or contract staffing solutions for healthcare facilities that need short-term or seasonal support.
                     </p>
                   </div>
                 </div>
@@ -145,10 +144,10 @@ const Feature = () => {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-medium leading-6">
-                      Regular Service Evaluation
+                      Permanent placement:
                       </h4>
                       <p className="mt-2 ">
-                      We also conduct regular evaluations to ensure that our clients are satisfied with the services they are receiving.
+                      We can help healthcare facilities find and hire permanent staff for long-term positions.
                       </p>
                     </div>
                   </div>
@@ -173,10 +172,10 @@ const Feature = () => {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-medium leading-6">
-                        Companionship from our Caregivers
+                      Career development:
                       </h4>
                       <p className="mt-2 ">
-                      In addition to the physical and practical support we provide, our caregivers are also a source of companionship and socialization for our clients.
+                      We offer ongoing support and resources to help nurses advance their careers and achieve their goals.
                       </p>
                     </div>
                   </div>
@@ -201,10 +200,10 @@ const Feature = () => {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-medium leading-6">
-                     Reliable and Trusted Services
+                      Training and education:
                       </h4>
                       <p className="mt-2 ">
-                      In addition to the exceptional care we provide, we also pride ourselves on being a trusted and reliable partner for families. We understand that choosing a home care provider is an important decision, and we are committed to being transparent and communicative throughout the process. Our team is available 24/7 to answer questions, address concerns, and provide updates on your loved ones' care.
+                      We offer ongoing training and education opportunities for our healthcare professionals to help them stay up-to-date on the latest industry trends and best practices. This can include in-person training sessions, online courses, and access to resources such as continuing education credits. By investing in the education and development of our healthcare professionals, we help them provide the best possible care to their patients and enhance their careers.
                       </p>
                     </div>
                   </div>

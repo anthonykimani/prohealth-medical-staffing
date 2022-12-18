@@ -12,44 +12,47 @@ const Faqs = () => {
           <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
             <details>
               <summary className="py-2 outline-none cursor-pointer focus:underline">
-                Optio maiores eligendi molestiae totam dolores similique?
+                How does Prohealth Medical Staffing find qualified candidates
+                for open positions?
               </summary>
               <div className="px-4 pb-4">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                  neque in fugiat magni, quas animi enim veritatis deleniti ex.
-                  Impedit.
+                  We have a team of experienced recruiters who use a variety of
+                  methods to find qualified candidates for open positions. This
+                  includes advertising job openings, searching through resumes
+                  and job boards, and networking with healthcare professionals.
+                  We also have a large pool of candidates who have previously
+                  worked with us and are available for new assignments.
                 </p>
               </div>
             </details>
             <details>
               <summary className="py-2 outline-none cursor-pointer focus:underline">
-                Modi dolorem veritatis culpa quos consequuntur beatae itaque
-                excepturi perspiciatis?
+                How do I apply for a position with Prohealth Medical Staffing?
               </summary>
               <div className="px-4 pb-4">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                  aspernatur quae, eos explicabo odit minima libero veniam
-                  similique quibusdam doloribus facilis ipsa accusantium vel
-                  maiores corrupti! Libero voluptate a doloribus?
+                  To apply for a position with Prohealth Medical Staffing, you
+                  can visit our website and submit an online application. You
+                  can also send your resume and a cover letter to our HR
+                  department. If you meet the qualifications for an open
+                  position, you may be contacted for an interview.
                 </p>
               </div>
             </details>
             <details>
               <summary className="py-2 outline-none cursor-pointer focus:underline">
-                Magni reprehenderit possimus debitis?
+                What benefits does Prohealth Medical Staffing offer its
+                employees?
               </summary>
               <div className="px-4 pb-4 space-y-2">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                  voluptates aspernatur dolores in consequatur doloremque
-                  inventore reprehenderit, consequuntur perspiciatis architecto.
-                </p>
-                <p>
-                  Sed consectetur quod tenetur! Voluptatibus culpa incidunt
-                  veritatis velit quasi cupiditate unde eaque! Iure,
-                  voluptatibus autem eaque unde possimus quae.
+                  We offer a range of benefits to our employees, including
+                  competitive pay, flexible scheduling, and opportunities for
+                  advancement. We also offer a variety of insurance options,
+                  including health, dental, and vision coverage. In addition, we
+                  provide ongoing training and support to help our employees
+                  succeed in their roles.
                 </p>
               </div>
             </details>
